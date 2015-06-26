@@ -5,7 +5,7 @@ PostList = React.createClass
 
   render: ->
     div className: 'post-list',
-      @getCollection().map(model) ->
+      @getCollection().map (model) ->
         div className: 'well',
           h1 {}, model.get('title')
           p {}, model.get('body')

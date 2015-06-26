@@ -1,4 +1,4 @@
 window.MyApp =
-	Models: {}
+  Models: {}
   Collections: {}
   Views: {}
